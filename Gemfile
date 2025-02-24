@@ -40,8 +40,6 @@ gem "thruster", require: false
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
 
-#make errors better looking 
-gem 'better_errors', '~> 2.9', '>= 2.9.1'
 
 #bulma css
 gem 'bulma-rails', '~> 1.0', '>= 1.0.3'
@@ -71,6 +69,10 @@ group :development do
   #Guard::LiveReload automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
+  #make errors better looking 
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+  gem "binding_of_caller"
+  
 end
 
 group :test do
@@ -78,3 +80,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dartsass-rails", "~> 0.5.1"
