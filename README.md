@@ -1,24 +1,32 @@
-# README
+# Demo Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple blog application built with Ruby on Rails. This app allows users to create posts and add comments to them.
 
-Things you may want to cover:
+## Features
+- Create, view, and delete posts.
+- Add and delete comments on posts.
+- Responsive design using Bulma CSS framework.
 
-* Ruby version
+## Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/demo_blog.git
+   ```
+2. Install dependencies:
+   ```bash
+   bundle install
+   ```
+3. Set up the database:
+   ```bash
+   rails db:migrate
+   ```
+4. Start the server:
+   ```bash
+   rails server
+   ```
+5. Open your browser and navigate to `http://localhost:3000`.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technologies Used
+- Ruby on Rails
+- SQLite (development)
+- Bulma CSS
