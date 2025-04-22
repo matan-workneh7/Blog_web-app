@@ -42,7 +42,7 @@ gem "thruster", require: false
 
 
 #bulma css
-gem 'bulma-rails', '~> 1.0', '>= 1.0.3'
+gem 'bulma-rails', '~> 1.0'
 
 #simple form
 gem 'simple_form', '~> 5.3', '>= 5.3.1'
